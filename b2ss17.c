@@ -6,12 +6,12 @@ void showStr(char *str);
 int countLetters(char *str, int length);
 int countNumbers(char *str, int length);
 int countCharacters(char *str, int length);
-int main(void){
+int main(){
     int choose=0;
     char str[1000];
     int flag=0, length=0;
     do{ 
-	    printf("MENU \n 1. Nhap vao chuoi \n 2. In ra chuoi \n 3. Dem so luong chu cai trong chuoi va in ra \n 4. Dem so luong chu so trong chuoi va in ra \n 5. Dem so luong ky tu dac biet trong chuoi va in ra \n 6. Thoat \n");
+	printf("MENU \n 1. Nhap vao chuoi \n 2. In ra chuoi \n 3. Dem so luong chu cai trong chuoi va in ra \n 4. Dem so luong chu so trong chuoi va in ra \n 5. Dem so luong ky tu dac biet trong chuoi va in ra \n 6. Thoat \n");
         printf("Lua chon cua ban: ");
         scanf("%d", &choose);
         switch(choose){
