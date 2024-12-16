@@ -8,11 +8,11 @@ void makeArr(char *arr);
 void compare(char *arr, char *str);
 void capitalLetter(char *str, int length);
 void linkStr(char *str, char *arr);
-int main(void){
+int main(){
     char str[100], arr[100];
     int choose=0, flag=0, length=0;
     do{
-	    printf("MENU \n 1. Nhap vao chuoi \n 2. In ra chuoi dao nguoc \n 3. Dem so luong tu trong chuoi \n 4. Nhap vao chuoi khac , so sanh chuoi do voi chuoi ban dau (ngan hon hoac dai hon chuoi ban dau) \n 5. In hoa tat ca chu cai trong chuoi \n 6. Nhap vao mot chuoi khac va them va them chuoi do vao chuoi do vao chuoi ban dau \n 7. Thoat \n");
+	printf("MENU \n 1. Nhap vao chuoi \n 2. In ra chuoi dao nguoc \n 3. Dem so luong tu trong chuoi \n 4. Nhap vao chuoi khac , so sanh chuoi do voi chuoi ban dau (ngan hon hoac dai hon chuoi ban dau) \n 5. In hoa tat ca chu cai trong chuoi \n 6. Nhap vao mot chuoi khac va them va them chuoi do vao chuoi do vao chuoi ban dau \n 7. Thoat \n");
         printf("Lua chon cua ban: ");
         scanf("%d", &choose);
         getchar();
